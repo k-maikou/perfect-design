@@ -4,9 +4,9 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"lint": "eslint --ext .js,.ts,.jsx,.tsx --fix --quiet ./packages",
-		"pre-commit": "pretty-quick --staged && npm run lint && npm run stylelint",
-		"stylelint": "stylelint {packages,docs,.dumi/theme}/**/*.less --fix",
+		"eslint": "eslint packages/perfect-design/src --cache --fix --quiet --ext .js,.jsx,.ts,.tsx",
+		"pre-commit": "pretty-quick --staged && npm run eslint && npm run stylelint",
+		"stylelint": "stylelint {packages,.dumi/theme}/**/*.less --fix",
 		"dev": "dumi dev",
 		"build:site": "rimraf doc-site && dumi build",
 		"preview:site": "npm run build:site && serve doc-site"
@@ -40,6 +40,7 @@
 		"lint-staged": "^13.1.1",
 		"lodash": "^4.17.21",
 		"pnpm": "^7.27.0",
+		"postcss-less": "^6.0.0",
 		"prettier": "^2.8.4",
 		"pretty-quick": "^3.1.3",
 		"react": "^18.2.0",

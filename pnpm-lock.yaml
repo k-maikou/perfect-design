@@ -20,6 +20,7 @@ importers:
       lint-staged: ^13.1.1
       lodash: ^4.17.21
       pnpm: ^7.27.0
+      postcss-less: ^6.0.0
       prettier: ^2.8.4
       pretty-quick: ^3.1.3
       react: ^18.2.0
@@ -38,7 +39,7 @@ importers:
       '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser/5.51.0_4vsywjlpuriuw3tl5oq6zy5a64
       antd: registry.npmmirror.com/antd/5.2.0_biqbaboplfbrettd7655fr4n2y
       commitlint: registry.npmmirror.com/commitlint/17.4.2
-      dumi: registry.npmmirror.com/dumi/2.1.9_cav54ol2fah57d5ztytywbzotu
+      dumi: registry.npmmirror.com/dumi/2.1.9_vvffjg2wgcblwf7llftpu7dopm
       eslint: registry.npmmirror.com/eslint/8.33.0
       eslint-config-prettier: registry.npmmirror.com/eslint-config-prettier/8.6.0_eslint@8.33.0
       eslint-plugin-prettier: registry.npmmirror.com/eslint-plugin-prettier/4.2.1_qa2thblfovmfepmgrc7z2owbo4
@@ -47,6 +48,7 @@ importers:
       lint-staged: registry.npmmirror.com/lint-staged/13.1.1
       lodash: registry.npmmirror.com/lodash/4.17.21
       pnpm: registry.npmmirror.com/pnpm/7.27.0
+      postcss-less: registry.npmmirror.com/postcss-less/6.0.0
       prettier: registry.npmmirror.com/prettier/2.8.4
       pretty-quick: registry.npmmirror.com/pretty-quick/3.1.3_prettier@2.8.4
       react: registry.npmmirror.com/react/18.2.0
@@ -3302,7 +3304,7 @@ packages:
     dependencies:
       '@babel/core': registry.npmmirror.com/@babel/core/7.20.12
       postcss: registry.npmmirror.com/postcss/8.4.21
-      postcss-syntax: registry.npmmirror.com/postcss-syntax/0.36.2_postcss@8.4.21
+      postcss-syntax: registry.npmmirror.com/postcss-syntax/0.36.2_l2mhxu65r7ddb5mpb2w4zchj6i
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4877,7 +4879,7 @@ packages:
       query-string: registry.npmmirror.com/query-string/6.14.1
     dev: true
 
-  registry.npmmirror.com/@umijs/lint/4.0.51_qqwpfwln2zum5popuaeyfwhd4m:
+  registry.npmmirror.com/@umijs/lint/4.0.51_mquyybnjqasfxkohh6mixm6ikq:
     resolution:
       {
         integrity: sha512-hWh9cvCYKJUw1RTZtLzOx2dqcCb+AIKroyoeoml6idA8e9g4NgghUT6u5qCtC8A+v82hq9BsT7xLyKs3/H/hTg==,
@@ -4898,7 +4900,7 @@ packages:
       eslint-plugin-react: registry.npmmirror.com/eslint-plugin-react/7.29.4_eslint@8.33.0
       eslint-plugin-react-hooks: registry.npmmirror.com/eslint-plugin-react-hooks/4.5.0_eslint@8.33.0
       postcss: registry.npmmirror.com/postcss/8.4.21
-      postcss-syntax: registry.npmmirror.com/postcss-syntax/0.36.2_postcss@8.4.21
+      postcss-syntax: registry.npmmirror.com/postcss-syntax/0.36.2_l2mhxu65r7ddb5mpb2w4zchj6i
       stylelint-config-standard: registry.npmmirror.com/stylelint-config-standard/25.0.0_stylelint@15.0.0
     transitivePeerDependencies:
       - eslint
@@ -9012,7 +9014,7 @@ packages:
     version: 2.0.0-alpha.0
     dev: true
 
-  registry.npmmirror.com/dumi/2.1.9_cav54ol2fah57d5ztytywbzotu:
+  registry.npmmirror.com/dumi/2.1.9_vvffjg2wgcblwf7llftpu7dopm:
     resolution:
       {
         integrity: sha512-QadjgDZINlDDCcQGxjNujoPRUku8LSW8Yw3UuQJK2+yu+BNeOc6NPRXWnTa4+XWGVjRH6Nn7+/wktZtcs9a1rw==,
@@ -9077,7 +9079,7 @@ packages:
       remark-rehype: registry.npmmirror.com/remark-rehype/10.1.0
       sass: registry.npmmirror.com/sass/1.58.0
       sitemap: registry.npmmirror.com/sitemap/7.1.1
-      umi: registry.npmmirror.com/umi/4.0.51_gyt6ijfx4bpgdf2mfae4vqnau4
+      umi: registry.npmmirror.com/umi/4.0.51_5sobs7pqqppcrk4txy6tpvg4em
       unified: registry.npmmirror.com/unified/10.1.2
       unist-util-visit: registry.npmmirror.com/unist-util-visit/4.1.2
       unist-util-visit-parents: registry.npmmirror.com/unist-util-visit-parents/5.1.3
@@ -18725,6 +18727,20 @@ packages:
       postcss-value-parser: registry.npmmirror.com/postcss-value-parser/4.2.0
     dev: true
 
+  registry.npmmirror.com/postcss-less/6.0.0:
+    resolution:
+      {
+        integrity: sha512-FPX16mQLyEjLzEuuJtxA8X3ejDLNGGEG503d2YGZR5Ask1SpDN8KmZUMpzCvyalWRywAn1n1VOA5dcqfCLo5rg==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/postcss-less/-/postcss-less-6.0.0.tgz
+      }
+    name: postcss-less
+    version: 6.0.0
+    engines: { node: '>=12' }
+    peerDependencies:
+      postcss: ^8.3.5
+    dev: true
+
   registry.npmmirror.com/postcss-logical/5.0.4:
     resolution:
       {
@@ -19308,7 +19324,7 @@ packages:
       util-deprecate: registry.npmmirror.com/util-deprecate/1.0.2
     dev: true
 
-  registry.npmmirror.com/postcss-syntax/0.36.2_postcss@8.4.21:
+  registry.npmmirror.com/postcss-syntax/0.36.2_l2mhxu65r7ddb5mpb2w4zchj6i:
     resolution:
       {
         integrity: sha512-nBRg/i7E3SOHWxF3PpF5WnJM/jQ1YpY9000OaVXlAQj6Zp/kIqJxEDWIZ67tAd7NLuk7zqN4yqe9nc0oNAOs1w==,
@@ -19338,6 +19354,7 @@ packages:
         optional: true
     dependencies:
       postcss: registry.npmmirror.com/postcss/8.4.21
+      postcss-less: registry.npmmirror.com/postcss-less/6.0.0
     dev: true
 
   registry.npmmirror.com/postcss-value-parser/4.2.0:
@@ -24603,7 +24620,7 @@ packages:
       random-bytes: registry.npmmirror.com/random-bytes/1.0.0
     dev: true
 
-  registry.npmmirror.com/umi/4.0.51_gyt6ijfx4bpgdf2mfae4vqnau4:
+  registry.npmmirror.com/umi/4.0.51_5sobs7pqqppcrk4txy6tpvg4em:
     resolution:
       {
         integrity: sha512-6wAX/DGOKlGJBDdHlQEEfnITgrZlR060/R6Q6Q7gzPVEClDpW2BONoilePr2SmL83ISwzZ7vooFORfG45gvNnA==,
@@ -24620,7 +24637,7 @@ packages:
       '@umijs/bundler-utils': registry.npmmirror.com/@umijs/bundler-utils/4.0.51
       '@umijs/bundler-webpack': registry.npmmirror.com/@umijs/bundler-webpack/4.0.51_typescript@4.9.5
       '@umijs/core': registry.npmmirror.com/@umijs/core/4.0.51
-      '@umijs/lint': registry.npmmirror.com/@umijs/lint/4.0.51_qqwpfwln2zum5popuaeyfwhd4m
+      '@umijs/lint': registry.npmmirror.com/@umijs/lint/4.0.51_mquyybnjqasfxkohh6mixm6ikq
       '@umijs/preset-umi': registry.npmmirror.com/@umijs/preset-umi/4.0.51_rtj4syckkd2derthrlnawvwewi
       '@umijs/renderer-react': registry.npmmirror.com/@umijs/renderer-react/4.0.51_biqbaboplfbrettd7655fr4n2y
       '@umijs/server': registry.npmmirror.com/@umijs/server/4.0.51
