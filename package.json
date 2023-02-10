@@ -4,11 +4,22 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"lint": "eslint --ext .js,.ts,.jsx,.tsx --fix --quiet ./packages"
+		"lint": "eslint --ext .js,.ts,.jsx,.tsx --fix --quiet ./packages",
+		"dev": "dumi dev",
+		"build:site": "rimraf doc-site && dumi build",
+		"preview:site": "npm run build:site && serve doc-site"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
+	"lint-staged": {
+		"*.{js,jsx,less,md,json}": [
+			"prettier --write"
+		],
+		"*.ts?(x)": [
+			"prettier --parser=typescript --write"
+		]
+	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.4.2",
 		"@commitlint/config-conventional": "^17.4.2",
@@ -16,15 +27,22 @@
 		"@types/react-dom": "^18.0.10",
 		"@typescript-eslint/eslint-plugin": "^5.51.0",
 		"@typescript-eslint/parser": "^5.51.0",
+		"antd": "^5.2.0",
 		"commitlint": "^17.4.2",
+		"dumi": "^2.1.9",
 		"eslint": "^8.33.0",
 		"eslint-config-prettier": "^8.6.0",
 		"eslint-plugin-prettier": "^4.2.1",
 		"eslint-plugin-react": "^7.32.2",
 		"husky": "^8.0.3",
+		"lint-staged": "^13.1.1",
+		"lodash": "^4.17.21",
+		"pnpm": "^7.27.0",
 		"prettier": "^2.8.4",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
+		"server": "^1.0.38",
+		"stylelint": "^15.0.0",
 		"typescript": "^4.9.5"
 	},
 	"peerDependencies": {
