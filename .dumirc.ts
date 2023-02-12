@@ -1,6 +1,16 @@
 import { defineConfig } from 'dumi'
 
+let base: string | undefined
+let publicPath: string | undefined
+
+if (process.env.NODE_ENV === 'production' && process.env.PREVIEW !== '1') {
+	base = '/perfect-design/'
+	publicPath = '/perfect-design/'
+}
+
 export default defineConfig({
+	base,
+	publicPath,
 	title: 'Perfect Design', // 站点名称
 	outputPath: 'docs-dist', // 输出文件夹
 	resolve: {
