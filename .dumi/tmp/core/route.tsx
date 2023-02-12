@@ -37,7 +37,7 @@ export async function getRoutes() {
 			'404': React.lazy(
 				() =>
 					import(
-						/* webpackChunkName: "nm__.pnpm__registry.npmmirror.com+dumi_2.1.9_26bkyrclqv5t5br4pab7hogptq__node_modules__dumi__dist__client__pages__404" */ '/Users/kkkkkk/Desktop/Development/perfect-design/node_modules/.pnpm/registry.npmmirror.com+dumi@2.1.9_26bkyrclqv5t5br4pab7hogptq/node_modules/dumi/dist/client/pages/404.js'
+						/* webpackChunkName: "nm__.pnpm__registry.npmmirror.com+dumi_2.1.9_vvffjg2wgcblwf7llftpu7dopm__node_modules__dumi__dist__client__pages__404" */ '/Users/kkkkkk/Desktop/Development/perfect-design/node_modules/.pnpm/registry.npmmirror.com+dumi@2.1.9_vvffjg2wgcblwf7llftpu7dopm/node_modules/dumi/dist/client/pages/404.js'
 					)
 			),
 			'dumi-context-layout': React.lazy(
@@ -49,7 +49,7 @@ export async function getRoutes() {
 			DocLayout: React.lazy(
 				() =>
 					import(
-						/* webpackChunkName: "nm__.pnpm__registry.npmmirror.com+dumi_2.1.9_26bkyrclqv5t5br4pab7hogptq__node_modules__dumi__theme-default__layouts__DocLayout__index" */ '/Users/kkkkkk/Desktop/Development/perfect-design/node_modules/.pnpm/registry.npmmirror.com+dumi@2.1.9_26bkyrclqv5t5br4pab7hogptq/node_modules/dumi/theme-default/layouts/DocLayout/index.js'
+						/* webpackChunkName: "nm__.pnpm__registry.npmmirror.com+dumi_2.1.9_vvffjg2wgcblwf7llftpu7dopm__node_modules__dumi__theme-default__layouts__DocLayout__index" */ '/Users/kkkkkk/Desktop/Development/perfect-design/node_modules/.pnpm/registry.npmmirror.com+dumi@2.1.9_vvffjg2wgcblwf7llftpu7dopm/node_modules/dumi/theme-default/layouts/DocLayout/index.js'
 					)
 			),
 			'docs/guide': React.lazy(
@@ -73,7 +73,7 @@ export async function getRoutes() {
 			'demo-render': React.lazy(
 				() =>
 					import(
-						/* webpackChunkName: "nm__.pnpm__registry.npmmirror.com+dumi_2.1.9_26bkyrclqv5t5br4pab7hogptq__node_modules__dumi__dist__client__pages__Demo__index" */ '/Users/kkkkkk/Desktop/Development/perfect-design/node_modules/.pnpm/registry.npmmirror.com+dumi@2.1.9_26bkyrclqv5t5br4pab7hogptq/node_modules/dumi/dist/client/pages/Demo/index.js'
+						/* webpackChunkName: "nm__.pnpm__registry.npmmirror.com+dumi_2.1.9_vvffjg2wgcblwf7llftpu7dopm__node_modules__dumi__dist__client__pages__Demo__index" */ '/Users/kkkkkk/Desktop/Development/perfect-design/node_modules/.pnpm/registry.npmmirror.com+dumi@2.1.9_vvffjg2wgcblwf7llftpu7dopm/node_modules/dumi/dist/client/pages/Demo/index.js'
 					)
 			)
 		}

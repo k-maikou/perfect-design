@@ -2,7 +2,7 @@ import { defineConfig } from 'dumi'
 
 export default defineConfig({
 	title: 'Perfect Design', // 站点名称
-	outputPath: 'doc-site', // 输出文件夹
+	outputPath: 'docs-dist', // 输出文件夹
 	resolve: {
 		docDirs: ['docs'],
 		atomDirs: [{ type: 'component', dir: '/packages/perfect-design/src' }],

@@ -42,7 +42,7 @@ export type { History } from '/Users/kkkkkk/Desktop/Development/perfect-design/n
 export {
 	ApplyPluginsType,
 	PluginManager
-} from '/Users/kkkkkk/Desktop/Development/perfect-design/node_modules/.pnpm/registry.npmmirror.com+umi@4.0.51_yuot37diops7ygnycylq6un7ty/node_modules/umi/client/client/plugin.js'
+} from '/Users/kkkkkk/Desktop/Development/perfect-design/node_modules/.pnpm/registry.npmmirror.com+umi@4.0.51_5sobs7pqqppcrk4txy6tpvg4em/node_modules/umi/client/client/plugin.js'
 export { history, createHistory } from './core/history'
 export { terminal } from './core/terminal'
 export { TestBrowser } from './testBrowser'

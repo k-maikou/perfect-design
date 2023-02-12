@@ -3,7 +3,7 @@
 // DO NOT CHANGE IT MANUALLY!
 import React, { useState, useEffect, useRef } from 'react'
 import { useOutlet, history } from 'dumi'
-import { SiteContext } from '/Users/kkkkkk/Desktop/Development/perfect-design/node_modules/.pnpm/registry.npmmirror.com+dumi@2.1.9_26bkyrclqv5t5br4pab7hogptq/node_modules/dumi/dist/client/theme-api/context.js'
+import { SiteContext } from '/Users/kkkkkk/Desktop/Development/perfect-design/node_modules/.pnpm/registry.npmmirror.com+dumi@2.1.9_vvffjg2wgcblwf7llftpu7dopm/node_modules/dumi/dist/client/theme-api/context.js'
 import { demos, components } from '../meta'
 import { locales } from '../locales/config'
 

@@ -1,32 +1,34 @@
 ---
-title: Alert
+title: Alert 警告提示
 nav:
-  title: Component
+  title: 组件
   path: /common
+group:
+  title: 反馈
 mobile: false
 toc: content
 ---
 
-# Alert
+# Alert 警告提示
 
-When displaying warning information to users, the warning prompt displays the information that needs attention.
+向用户显示警告的信息时，通过警告提示，展现需要关注的信息。
 
-## Basic use
+## 基本使用
 
-Warning prompt, which shows the information that needs attention, is applicable to short warning prompts.
+警告提示，展现需要关注的信息，适用于简短的警告提示。
 
 <code src="./demo/index.tsx"></code>
 
 ## API
 
-| Name         | Description             | Type                               | Default |
-| ------------ | ----------------------- | ---------------------------------- | ------- |
-| style        | Custom styles           | `CSSProperties`                    | `--`    |
-| className    | class name              | `string`                           | `--`    |
-| type         | type                    | `info / success / warning / error` | `info`  |
-| title        | Display title           | `string`                           | `''`    |
-| content      | Warning text            | `string`                           | `''`    |
-| showClear    | Show clear button       | `boolean`                          | `false` |
-| showIcon     | Show warning icon       | `boolean`                          | `true`  |
-| closeElement | Custom close icon       | `React.ReactNode/string`           | `--`    |
-| onClose      | Close callback function | `Function`                         | `--`    |
+| Name         | Description      | Type                               | Default |
+| ------------ | ---------------- | ---------------------------------- | ------- |
+| style        | 自定义样式       | `CSSProperties`                    | `--`    |
+| className    | 类名             | `string`                           | `--`    |
+| type         | 类型             | `info / success / warning / error` | `info`  |
+| title        | 显示标题         | `string`                           | `''`    |
+| content      | 警告文字         | `string`                           | `''`    |
+| showClear    | 显示清除按钮     | `boolean`                          | `false` |
+| showIcon     | 显示警告提示图标 | `boolean`                          | `true`  |
+| closeElement | 自定义关闭图标   | `React.ReactNode / string`         | `--`    |
+| onClose      | 关闭回调函数     | `Function`                         | `--`    |
