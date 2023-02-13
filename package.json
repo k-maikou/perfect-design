@@ -11,7 +11,7 @@
 		"pre-commit": "pretty-quick --staged && pnpm eslint && pnpm stylelint",
 		"stylelint": "stylelint {packages,.dumi/theme}/**/*.less --fix",
 		"preview": "cross-env PREVIEW=1 pnpm build:docs && cross-env PREVIEW=1 dumi preview",
-		"deploy": "pnpm build:docs && gh-pages -d docs-dist"
+		"deploy": "rimraf node_modules/.cache/gh-pages && pnpm build:docs && gh-pages -d docs-dist"
 	},
 	"keywords": [],
 	"author": "",
