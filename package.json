@@ -2,7 +2,8 @@
 	"name": "perfect-design",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"module": "es/index.js",
+	"main": "lib/index.js",
 	"scripts": {
 		"start": "dumi dev",
 		"build:docs": "rimraf docs-dist && dumi build",
@@ -10,7 +11,7 @@
 		"pre-commit": "pretty-quick --staged && pnpm eslint && pnpm stylelint",
 		"stylelint": "stylelint {packages,.dumi/theme}/**/*.less --fix",
 		"preview": "cross-env PREVIEW=1 pnpm build:docs && cross-env PREVIEW=1 dumi preview",
-		"deploy": "pnpm build:docs && gh-pages -d docs-dist"
+		"deploy": "pnpm build:docs && gh-pages -d docs-dist -b gh-pages"
 	},
 	"keywords": [],
 	"author": "",
