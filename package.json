@@ -1,7 +1,7 @@
 {
 	"name": "perfect-design",
 	"version": "1.0.0",
-	"description": "",
+	"description": "https://github.com/k-maikou/perfect-design",
 	"module": "es/index.js",
 	"main": "lib/index.js",
 	"scripts": {
@@ -11,7 +11,7 @@
 		"pre-commit": "pretty-quick --staged && pnpm eslint && pnpm stylelint",
 		"stylelint": "stylelint {packages,.dumi/theme}/**/*.less --fix",
 		"preview": "cross-env PREVIEW=1 pnpm build:docs && cross-env PREVIEW=1 dumi preview",
-		"deploy": "pnpm build:docs && gh-pages -d docs-dist -b gh-pages"
+		"deploy": "pnpm build:docs && gh-pages -d docs-dist"
 	},
 	"keywords": [],
 	"author": "",

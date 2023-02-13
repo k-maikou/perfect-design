@@ -3,7 +3,7 @@ import { defineConfig } from 'dumi'
 let base: string | undefined
 let publicPath: string | undefined
 
-if (process.env.NODE_ENV === 'production' && process.env.PREVIEW !== '1') {
+if (process.env.PREVIEW !== '1') {
 	base = '/perfect-design/'
 	publicPath = '/perfect-design/'
 }
