@@ -1,7 +1,17 @@
 import { defineConfig } from 'dumi'
 import path from 'path'
 
+let base: string | undefined
+let publicPath: string | undefined
+
+if (process.env.PREVIEW !== '1') {
+	base = '/perfect-design/'
+	publicPath = '/perfect-design/'
+}
+
 export default defineConfig({
+	base,
+	publicPath,
 	title: 'Perfect Design', // 站点名称
 	outputPath: 'docs-dist', // 输出文件夹
 	resolve: {
