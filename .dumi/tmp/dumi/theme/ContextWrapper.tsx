@@ -3,7 +3,7 @@
 // DO NOT CHANGE IT MANUALLY!
 import React, { useState, useEffect, useRef } from 'react'
 import { useOutlet, history } from 'dumi'
-import { SiteContext } from '/Users/kkkkkk/Desktop/Development/perfect-design/node_modules/.pnpm/registry.npmmirror.com+dumi@2.1.9_vvffjg2wgcblwf7llftpu7dopm/node_modules/dumi/dist/client/theme-api/context.js'
+import { SiteContext } from '/Users/kkkkkk/Desktop/Development/perfect-design/node_modules/.pnpm/registry.npmmirror.com+dumi@2.1.9_afp74kv5iscgr7eduxuo4xlpkq/node_modules/dumi/dist/client/theme-api/context.js'
 import { demos, components } from '../meta'
 import { locales } from '../locales/config'
 
@@ -32,8 +32,8 @@ export default function DumiContextWrapper() {
 		<SiteContext.Provider
 			value={{
 				pkg: {
-					name: 'perfect-design',
-					description: '',
+					name: 'perfect-warehouse',
+					description: 'https://github.com/k-maikou/perfect-design',
 					version: '1.0.0',
 					license: 'ISC',
 					author: ''
@@ -47,7 +47,7 @@ export default function DumiContextWrapper() {
 				themeConfig: {
 					title: 'Perfect Design',
 					footer:
-						'Copyright © 2022-2022 Perfect Design. All Rights Reserved. Perfect Design 版权所有. 苏ICP备2022018060号',
+						'Copyright © 2022-2022 Perfect Design. All Rights Reserved. Perfect Design 版权所有. 苏ICP备2022018069号',
 					prefersColor: { default: 'light', switch: true },
 					name: 'Perfect D',
 					carrier: 'dumi',

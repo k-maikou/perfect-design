@@ -19,8 +19,8 @@ export async function getRoutes() {
 		},
 		'docs/guide': { path: 'guide', id: 'docs/guide', parentId: 'DocLayout' },
 		'docs/index': { path: '', id: 'docs/index', parentId: 'DocLayout' },
-		'components/alert/index': {
-			id: 'components/alert/index',
+		'components/Alert/index': {
+			id: 'components/Alert/index',
 			path: 'components/alert',
 			parentId: 'DocLayout'
 		},
@@ -37,7 +37,7 @@ export async function getRoutes() {
 			'404': React.lazy(
 				() =>
 					import(
-						/* webpackChunkName: "nm__.pnpm__registry.npmmirror.com+dumi_2.1.9_vvffjg2wgcblwf7llftpu7dopm__node_modules__dumi__dist__client__pages__404" */ '/Users/kkkkkk/Desktop/Development/perfect-design/node_modules/.pnpm/registry.npmmirror.com+dumi@2.1.9_vvffjg2wgcblwf7llftpu7dopm/node_modules/dumi/dist/client/pages/404.js'
+						/* webpackChunkName: "nm__.pnpm__registry.npmmirror.com+dumi_2.1.9_afp74kv5iscgr7eduxuo4xlpkq__node_modules__dumi__dist__client__pages__404" */ '/Users/kkkkkk/Desktop/Development/perfect-design/node_modules/.pnpm/registry.npmmirror.com+dumi@2.1.9_afp74kv5iscgr7eduxuo4xlpkq/node_modules/dumi/dist/client/pages/404.js'
 					)
 			),
 			'dumi-context-layout': React.lazy(
@@ -49,7 +49,7 @@ export async function getRoutes() {
 			DocLayout: React.lazy(
 				() =>
 					import(
-						/* webpackChunkName: "nm__.pnpm__registry.npmmirror.com+dumi_2.1.9_vvffjg2wgcblwf7llftpu7dopm__node_modules__dumi__theme-default__layouts__DocLayout__index" */ '/Users/kkkkkk/Desktop/Development/perfect-design/node_modules/.pnpm/registry.npmmirror.com+dumi@2.1.9_vvffjg2wgcblwf7llftpu7dopm/node_modules/dumi/theme-default/layouts/DocLayout/index.js'
+						/* webpackChunkName: "nm__.pnpm__registry.npmmirror.com+dumi_2.1.9_afp74kv5iscgr7eduxuo4xlpkq__node_modules__dumi__theme-default__layouts__DocLayout__index" */ '/Users/kkkkkk/Desktop/Development/perfect-design/node_modules/.pnpm/registry.npmmirror.com+dumi@2.1.9_afp74kv5iscgr7eduxuo4xlpkq/node_modules/dumi/theme-default/layouts/DocLayout/index.js'
 					)
 			),
 			'docs/guide': React.lazy(
@@ -64,16 +64,16 @@ export async function getRoutes() {
 						/* webpackChunkName: "docs__index.md" */ '/Users/kkkkkk/Desktop/Development/perfect-design/docs/index.md'
 					)
 			),
-			'components/alert/index': React.lazy(
+			'components/Alert/index': React.lazy(
 				() =>
 					import(
-						/* webpackChunkName: "packages__perfect-design__src__alert__index.md" */ '/Users/kkkkkk/Desktop/Development/perfect-design/packages/perfect-design/src/alert/index.md'
+						/* webpackChunkName: "packages__perfect-design__src__Alert__index.md" */ '/Users/kkkkkk/Desktop/Development/perfect-design/packages/perfect-design/src/Alert/index.md'
 					)
 			),
 			'demo-render': React.lazy(
 				() =>
 					import(
-						/* webpackChunkName: "nm__.pnpm__registry.npmmirror.com+dumi_2.1.9_vvffjg2wgcblwf7llftpu7dopm__node_modules__dumi__dist__client__pages__Demo__index" */ '/Users/kkkkkk/Desktop/Development/perfect-design/node_modules/.pnpm/registry.npmmirror.com+dumi@2.1.9_vvffjg2wgcblwf7llftpu7dopm/node_modules/dumi/dist/client/pages/Demo/index.js'
+						/* webpackChunkName: "nm__.pnpm__registry.npmmirror.com+dumi_2.1.9_afp74kv5iscgr7eduxuo4xlpkq__node_modules__dumi__dist__client__pages__Demo__index" */ '/Users/kkkkkk/Desktop/Development/perfect-design/node_modules/.pnpm/registry.npmmirror.com+dumi@2.1.9_afp74kv5iscgr7eduxuo4xlpkq/node_modules/dumi/dist/client/pages/Demo/index.js'
 					)
 			)
 		}

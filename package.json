@@ -1,9 +1,9 @@
 {
-	"name": "perfect-design",
+	"name": "perfect-warehouse",
 	"version": "1.0.0",
 	"description": "https://github.com/k-maikou/perfect-design",
 	"module": "es/index.js",
-	"main": "lib/index.js",
+	"typings": "es/index.d.ts",
 	"scripts": {
 		"start": "dumi dev",
 		"build:docs": "rimraf docs-dist && dumi build",
@@ -28,6 +28,9 @@
 		]
 	},
 	"devDependencies": {
+		"@babel/core": "^7.21.0",
+		"@babel/plugin-transform-runtime": "^7.21.0",
+		"@babel/preset-env": "^7.20.2",
 		"@commitlint/cli": "^17.4.2",
 		"@commitlint/config-conventional": "^17.4.2",
 		"@types/react": "^18.0.27",
@@ -51,7 +54,21 @@
 		"pretty-quick": "^3.1.3",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
+		"react-transition-group": "^4.4.5",
 		"rimraf": "^4.1.2",
+		"rollup": "^3.17.2",
+		"rollup-plugin-babel": "^4.4.0",
+		"rollup-plugin-clear": "^2.0.7",
+		"rollup-plugin-commonjs": "^10.1.0",
+		"rollup-plugin-copy": "^3.4.0",
+		"rollup-plugin-delete": "^2.0.0",
+		"rollup-plugin-eslint": "^7.0.0",
+		"rollup-plugin-less": "^1.1.3",
+		"rollup-plugin-node-resolve": "^5.2.0",
+		"rollup-plugin-postcss": "^4.0.2",
+		"rollup-plugin-terser": "^7.0.2",
+		"rollup-plugin-typescript2": "^0.34.1",
+		"rollup-plugin-uglify": "^6.0.4",
 		"server": "^1.0.38",
 		"stylelint": "^15.0.0",
 		"stylelint-config-prettier": "^9.0.4",
@@ -61,5 +78,8 @@
 	"peerDependencies": {
 		"react": ">=16.9.0",
 		"react-dom": ">=16.9.0"
+	},
+	"dependencies": {
+		"styled-components": "^5.3.6"
 	}
 }

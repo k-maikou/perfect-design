@@ -5,5 +5,8 @@
 	"main": "index.ts",
 	"module": "index.ts",
 	"sideEffects": false,
-	"license": "ISC"
+	"license": "ISC",
+	"devDependencies": {
+		"@types/styled-components": "^5.1.26"
+	}
 }

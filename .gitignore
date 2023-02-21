@@ -1,3 +1,13 @@
-/node_modules
-/docs-dist
+# dependencies
+node_modules
+/packages/*/node_modules
+/package-lock.json
+/yarn.lock
+/packages/*/package-lock.json
+
+# bundle files
 /.dumi/tmp-production
+/docs-dist
+/es
+/lib
+/packages/*/dist

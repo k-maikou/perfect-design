@@ -1,13 +1,43 @@
 {
-	"name": "perfect-warehouse",
+	"name": "perfect-design",
 	"version": "1.0.0",
 	"description": "A Component Library for React",
-	"main": "index.ts",
-	"module": "index.ts",
+	"license": "MIT",
+	"module": "./web-react/es/index.js",
+	"main": "./web-react/cjs/index.js",
+	"unpkg": "./web-react/umd/index.js",
+	"types": "./web-react/es/index.d.ts",
+	"authors": {
+		"name": "kkk",
+		"email": "956205311@qq.com"
+	},
+	"keywords": [
+		"react",
+		"react18",
+		"reactComponent",
+		"component",
+		"components",
+		"ui",
+		"framework",
+		"frontend"
+	],
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC"
+	"gitHooks": {
+		"pre-commit": "lint-staged"
+	},
+	"peerDependencies": {
+		"react": ">=16.9.0",
+		"react-dom": ">=16.9.0"
+	},
+	"dependencies": {
+		"styled-components": "^5.3.6"
+	},
+	"devDependencies": {
+		"@ant-design/icons": "^5.0.1",
+		"@types/react": "^18.0.27",
+		"@types/react-dom": "^18.0.10",
+		"react-transition-group": "^4.4.5"
+	}
 }

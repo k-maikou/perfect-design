@@ -1,0 +1,128 @@
+@import '../styles/common.less';
+
+@prefect-light-info-bg: #e8f3ff;
+@prefect-light-success-bg: #e8ffea;
+@prefect-light-warning-bg: #fef7e8;
+@prefect-light-error-bg: #feece8;
+@prefect-dark-info-bg: #253757;
+@prefect-dark-success-bg: #22482c;
+@prefect-dark-warning-bg: #573d25;
+@prefect-dark-error-bg: #553332;
+@prefect-light-content-color: #4e5969;
+@prefect-light-title-color: #1d2129;
+@prefect-dark-content-color: #ffffffb3;
+@prefect-dark-title-color: #ffffff;
+
+.prefect-alert,
+.prefect-dark-alert {
+	// width: 100%;
+	padding: 12px 15px;
+	font-size: @prefect-font-md;
+	text-align: left;
+	display: flex;
+	border-radius: @prefect-radius-xs;
+	justify-content: space-between;
+
+	.alert-content {
+		display: flex;
+		color: @prefect-light-content-color;
+
+		.alert-icon {
+			margin-right: @prefect-transform-ms;
+
+			&-info {
+				color: @prefect-primary-color;
+			}
+
+			&-success {
+				color: @prefect-info-color;
+			}
+
+			&-warning {
+				color: @prefect-warning-color;
+			}
+
+			&-error {
+				color: @prefect-danger-color;
+			}
+		}
+
+		.alert-text {
+			display: flex;
+			flex-direction: column;
+
+			.title {
+				font-size: @prefect-font-lg;
+				margin-bottom: @prefect-transform-ms;
+				color: @prefect-light-title-color;
+			}
+		}
+	}
+
+	.close-icon {
+		font-size: @prefect-font-xs;
+		cursor: pointer;
+	}
+}
+
+.prefect-dark-alert-info {
+	background-color: @prefect-dark-info-bg;
+}
+
+.prefect-dark-alert-success {
+	background-color: @prefect-dark-success-bg;
+}
+
+.prefect-dark-alert-warning {
+	background-color: @prefect-dark-warning-bg;
+}
+
+.prefect-dark-alert-error {
+	background-color: @prefect-dark-error-bg;
+}
+
+.prefect-alert-info {
+	background-color: @prefect-light-info-bg;
+}
+
+.prefect-alert-success {
+	background-color: @prefect-light-success-bg;
+}
+
+.prefect-alert-warning {
+	background-color: @prefect-light-warning-bg;
+}
+
+.prefect-alert-error {
+	background-color: @prefect-light-error-bg;
+}
+
+.prefect-dark-alert {
+	.alert-content {
+		color: @prefect-dark-content-color;
+
+		.alert-text .title {
+			color: @prefect-dark-title-color;
+		}
+	}
+}
+
+.fadeContent-enter,
+.fadeContent-appear {
+	opacity: 0;
+}
+
+.fadeContent-enter-active,
+.fadeContent-appear-active {
+	opacity: 1;
+	transition: opacity 200ms;
+}
+
+.fadeContent-exit {
+	opacity: 1;
+}
+
+.fadeContent-exit-active {
+	opacity: 0;
+	transition: opacity 200ms;
+}

@@ -18,7 +18,7 @@ import {
 	frontmatter as fm2,
 	toc as toc2,
 	texts as txt2
-} from '/Users/kkkkkk/Desktop/Development/perfect-design/packages/perfect-design/src/alert/index.md?type=meta'
+} from '/Users/kkkkkk/Desktop/Development/perfect-design/packages/perfect-design/src/Alert/index.md?type=meta'
 
 export { components } from './atoms'
 export { tabs } from './tabs'
@@ -36,7 +36,7 @@ export const filesMeta = {
 		texts: txt1,
 		demos: dm1
 	},
-	'components/alert/index': {
+	'components/Alert/index': {
 		frontmatter: fm2,
 		toc: toc2,
 		texts: txt2,
