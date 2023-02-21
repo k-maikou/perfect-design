@@ -37,6 +37,7 @@ importers:
       react: ^18.2.0
       react-dom: ^18.2.0
       react-transition-group: ^4.4.5
+      rimraf: ^4.1.2
       rollup: ^3.17.2
       rollup-plugin-babel: ^4.4.0
       rollup-plugin-clear: ^2.0.7
@@ -92,6 +93,7 @@ importers:
       react: registry.npmmirror.com/react/18.2.0
       react-dom: registry.npmmirror.com/react-dom/18.2.0_react@18.2.0
       react-transition-group: registry.npmmirror.com/react-transition-group/4.4.5_biqbaboplfbrettd7655fr4n2y
+      rimraf: registry.npmmirror.com/rimraf/4.1.2
       rollup: registry.npmmirror.com/rollup/3.17.2
       rollup-plugin-babel: registry.npmmirror.com/rollup-plugin-babel/4.4.0_zckbjdef7bo4amsla2acrs7s4i
       rollup-plugin-clear: registry.npmmirror.com/rollup-plugin-clear/2.0.7
@@ -26126,6 +26128,19 @@ packages:
     hasBin: true
     dependencies:
       glob: registry.npmmirror.com/glob/7.2.3
+    dev: true
+
+  registry.npmmirror.com/rimraf/4.1.2:
+    resolution:
+      {
+        integrity: sha512-BlIbgFryTbw3Dz6hyoWFhKk+unCcHMSkZGrTFVAx2WmttdBSonsdtRlwiuTbDqTKr+UlXIUqJVS4QT5tUzGENQ==,
+        registry: https://registry.npm.taobao.org/,
+        tarball: https://registry.npmmirror.com/rimraf/-/rimraf-4.1.2.tgz
+      }
+    name: rimraf
+    version: 4.1.2
+    engines: { node: '>=14' }
+    hasBin: true
     dev: true
 
   registry.npmmirror.com/ripemd160/2.0.2:

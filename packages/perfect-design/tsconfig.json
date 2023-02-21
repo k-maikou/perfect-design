@@ -1,10 +1,12 @@
 {
 	"extends": "../../tsconfig.json",
 	"compilerOptions": {
+		"module": "es2015",
 		"baseUrl": "./",
 		"declaration": true,
 		"paths": {
-			"tslib": ["./node_modules/tslib/tslib.d.ts"]
+			"tslib": ["./node_modules/tslib/tslib.d.ts"],
+			"@/*": ["./*"]
 		},
 		"typeRoots": ["node_modules/@types", "types"]
 	},
