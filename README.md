@@ -5,7 +5,7 @@
 🚆 本地预览
 
 ```
-git clone git@github.com:worldzhao/react-ui-library-tutorial.git
+git clone https://github.com/k-maikou/perfect-design.git
 cd react-ui-library-tutorial
 pnpm install
 pnpm start
