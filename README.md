@@ -6,7 +6,8 @@
 
 ```
 git clone https://github.com/k-maikou/perfect-design.git
-cd react-ui-library-tutorial
+cd perfect-design
+
 pnpm install
 pnpm start
 ```
