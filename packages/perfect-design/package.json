@@ -3,10 +3,10 @@
 	"version": "1.0.0",
 	"description": "A Component Library for React",
 	"license": "MIT",
-	"module": "./web-react/es/index.js",
-	"main": "./web-react/cjs/index.js",
-	"unpkg": "./web-react/umd/index.js",
-	"types": "./web-react/es/index.d.ts",
+	"module": "./dist/es/index.js",
+	"main": "./dist/cjs/index.js",
+	"unpkg": "./dist/umd/index.js",
+	"types": "./dist/es/index.d.ts",
 	"authors": {
 		"name": "kkk",
 		"email": "956205311@qq.com"
