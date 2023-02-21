@@ -1,4 +1,4 @@
-# React 组件库搭建指南
+# React 组件库搭建
 
 [🚀 在线预览](https://k-maikou.github.io/perfect-design)
 
