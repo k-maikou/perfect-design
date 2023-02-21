@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { commonStyle } from '../../styles/common'
+import { commonStyle } from '../../../styles/common'
 
 const prefectLightInfoBg = '#e8f3ff',
 	prefectLightSuccessBg = '#e8ffea',

@@ -18,7 +18,7 @@ import {
 	frontmatter as fm2,
 	toc as toc2,
 	texts as txt2
-} from '/Users/kkkkkk/Desktop/Development/perfect-design/packages/perfect-design/src/Alert/index.md?type=meta'
+} from '/Users/kkkkkk/Desktop/Development/perfect-design/packages/perfect-design/src/components/Alert/index.md?type=meta'
 
 export { components } from './atoms'
 export { tabs } from './tabs'

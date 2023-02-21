@@ -6,7 +6,9 @@ export default defineConfig({
 	outputPath: 'docs-dist', // 输出文件夹
 	resolve: {
 		docDirs: ['docs'],
-		atomDirs: [{ type: 'component', dir: '/packages/perfect-design/src' }],
+		atomDirs: [
+			{ type: 'component', dir: '/packages/perfect-design/src/components' }
+		],
 		codeBlockMode: 'passive'
 	},
 	alias: {

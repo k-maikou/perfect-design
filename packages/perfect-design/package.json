@@ -22,7 +22,7 @@
 		"frontend"
 	],
 	"scripts": {
-		"build": "rollup -c ./rollup.config.js"
+		"build": "rollup --bundleConfigAsCjs -c ./rollup.config.js"
 	},
 	"gitHooks": {
 		"pre-commit": "lint-staged"
@@ -32,6 +32,7 @@
 		"react-dom": ">=16.9.0"
 	},
 	"dependencies": {
+		"react-is": "^18.2.0",
 		"styled-components": "^5.3.6"
 	},
 	"devDependencies": {

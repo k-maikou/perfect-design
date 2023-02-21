@@ -8,9 +8,9 @@ import {
 import { CSSTransition } from 'react-transition-group'
 import { AlertStyle } from './style'
 import { AlertProps } from './interface'
-import { GlobalConfigProps } from '../GlobalConfig/interface'
-import { globalCtx } from '../GlobalConfig'
-import cs from '../utils/classNames'
+import { GlobalConfigProps } from '../../GlobalConfig/interface'
+import { globalCtx } from '../../GlobalConfig'
+import cs from '../../utils/classNames'
 
 const Alert = (props: AlertProps, ref: any) => {
 	const {

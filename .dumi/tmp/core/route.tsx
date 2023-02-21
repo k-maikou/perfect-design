@@ -67,7 +67,7 @@ export async function getRoutes() {
 			'components/Alert/index': React.lazy(
 				() =>
 					import(
-						/* webpackChunkName: "packages__perfect-design__src__Alert__index.md" */ '/Users/kkkkkk/Desktop/Development/perfect-design/packages/perfect-design/src/Alert/index.md'
+						/* webpackChunkName: "packages__perfect-design__src__components__Alert__index.md" */ '/Users/kkkkkk/Desktop/Development/perfect-design/packages/perfect-design/src/components/Alert/index.md'
 					)
 			),
 			'demo-render': React.lazy(

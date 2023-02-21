@@ -1,7 +1,7 @@
 import React from 'react'
 import { Alert } from 'perfectD'
 
-export default function index1() {
+export default function index() {
 	const margin = { margin: '15px 0' }
 	return (
 		<div>

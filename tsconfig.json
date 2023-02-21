@@ -1,28 +1,26 @@
 {
-	"compileOnSave": true,
 	"compilerOptions": {
-		"jsx": "react",
-		"useDefineForClassFields": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"baseUrl": "./",
 		"target": "es6",
 		"module": "es2015",
 		"lib": ["dom", "dom.iterable", "esnext", "es2021"],
-		"moduleResolution": "Node",
-		"strict": true,
-		"sourceMap": true,
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": false,
+		"forceConsistentCasingInFileNames": true,
+		"moduleResolution": "node", //node环境
 		"resolveJsonModule": true,
 		"isolatedModules": true,
-		"esModuleInterop": true,
 		"noEmit": true,
-		"noUnusedLocals": true,
-		"noUnusedParameters": true,
-		"noImplicitReturns": false,
-		"skipLibCheck": true,
-		"baseUrl": "./packages",
+		"jsx": "react",
 		"paths": {
 			"@/*": ["./*"],
 			"@/": ["./packages"],
 			"@@/*": [".dumi/tmp/*"]
-		}
+		},
+		"experimentalDecorators": true
 	},
 	"include": [
 		"typings.d.ts", //配置的.d.ts文件
