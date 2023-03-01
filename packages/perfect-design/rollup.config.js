@@ -3,14 +3,14 @@ import less from 'rollup-plugin-less'
 import clear from 'rollup-plugin-clear'
 import cjs from '@rollup/plugin-commonjs'
 import babel from 'rollup-plugin-babel'
+import resolve from '@rollup/plugin-node-resolve'
 import { terser } from 'rollup-plugin-terser'
 import { uglify } from 'rollup-plugin-uglify'
 import copy from 'rollup-plugin-copy'
-import alias from 'rollup-plugin-alias'
-const path = require('path')
 
 function getBaseRollupPlugins({ typescript = {} } = {}) {
 	return [
+		resolve(),
 		cjs({
 			ignoreGlobal: true,
 			include: /\/node_modules\//,
@@ -42,14 +42,6 @@ export default {
 		}
 	],
 	plugins: [
-		alias({
-			entries: [
-				{
-					find: '@src',
-					replacement: path.resolve(__dirname, './src')
-				}
-			]
-		}),
 		less({ output: './dist/style/index.css' }),
 		clear({
 			targets: ['dist']
