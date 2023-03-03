@@ -4,6 +4,7 @@ node_modules
 /package-lock.json
 /yarn.lock
 /packages/*/package-lock.json
+/packages/i18n/demo
 
 # bundle files
 /.dumi/tmp-production
