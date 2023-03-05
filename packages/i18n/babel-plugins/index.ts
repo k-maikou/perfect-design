@@ -1,9 +1,13 @@
 import { NodePath } from '@babel/core'
-import { JSXText, StringLiteral, TemplateLiteral } from '@babel/types'
+import { StringLiteral } from '@babel/types'
+import { handleStringLiteral } from './visitor'
+import { saveLanguage, initConfig } from './utils'
 
-export default function babelPlugins() {
-	console.log(111)
+export default function () {
 	return {
+		pre() {
+			initConfig()
+		},
 		visitor: {
 			// 模版字符串
 			TemplateLiteral: {
@@ -15,16 +19,11 @@ export default function babelPlugins() {
 			},
 			// 字符串
 			StringLiteral: {
-				enter: (path: NodePath<StringLiteral>) => console.log(path)
+				enter: (path: NodePath<StringLiteral>) => handleStringLiteral(path)
 			}
+		},
+		post() {
+			saveLanguage()
 		}
 	}
 }
-
-// function babelPlugin() {
-// 	return {
-// 		plugins: [babelPlugins]
-// 	}
-// }
-
-// export default babelPlugin

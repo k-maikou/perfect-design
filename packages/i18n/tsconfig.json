@@ -1,0 +1,45 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"outDir": "dist/cjs",
+		"module": "CommonJS",
+		"target": "es5",
+		"lib": ["es6", "dom", "es2017"],
+		"sourceMap": true,
+		"allowJs": true,
+		"jsx": "react",
+		"moduleResolution": "node",
+		"rootDir": "./",
+		"declaration": true,
+		"forceConsistentCasingInFileNames": true,
+		"allowSyntheticDefaultImports": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noImplicitAny": false,
+		"importHelpers": true,
+		"strictNullChecks": true,
+		"skipLibCheck": true,
+		"suppressImplicitAnyIndexErrors": true,
+		"noUnusedLocals": true,
+		"experimentalDecorators": true,
+		"resolveJsonModule": true,
+		"downlevelIteration": true,
+		"paths": {}
+	},
+	"include": [
+		"index.ts",
+		"bin/index.ts",
+		"babel-plugins/index.ts",
+		"babel-presets/index.ts"
+	],
+	"exclude": [
+		"config",
+		"node_modules",
+		"build",
+		"scripts",
+		"acceptance-tests",
+		"webpack",
+		"jest",
+		"src/setupTests.ts"
+	]
+}
